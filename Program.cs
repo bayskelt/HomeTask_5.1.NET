@@ -12,9 +12,9 @@ namespace HomeTask_5._1.NET
         static void Main()
         {
             Console.Write("Введiть перше цiле число: ");
-            int x = int.Parse( Console.ReadLine() );
+            int x = int.Parse(s: Console.ReadLine());
             Console.Write("Введiть друге цiле число: ");
-            int y = int.Parse( Console.ReadLine() );
+            int y = int.Parse(s: Console.ReadLine());
 
             Avarage( x, y );
         }
